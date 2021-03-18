@@ -15,6 +15,10 @@
       font: italic bold 25px "Lucida Handwriting", "Brush Script MT", cursive;
       background-image: url(coverp.jpg);
     }
+
+    #footer {
+      background-image: url(coverp.jpg);
+    }
     
     #Navbar{
       font-size: 17px;
@@ -65,6 +69,17 @@
       text-align: center;
       background-color: #f0f0f5;
     }
+
+    div.fixed {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      width: 75px;
+      height: 60px;
+      border: 2px solid black;
+      background-color: #f0f0f5;
+      padding: 3px;
+    }
   </style>
 
 </head>
@@ -86,10 +101,10 @@
         <a class="nav-link" href="#photogallery">Photo Gallery</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#favouritesong">My Favourite Songs</a>
+        <a class="nav-link" href="#favouritebgm">My Favourite BGM</a>
       </li> 
       <li class="nav-item">
-        <a class="nav-link" href="#favouritemovie">My Favourite Movies</a>
+        <a class="nav-link" href="#favouritemovies">My Favourite Movies/Dramas</a>
       </li>   
     </ul>
   </div>  
@@ -111,111 +126,101 @@
         <p>I'm a quiet person so my hobbies are basically indoor activities like listening to music, reading novels, watching movies & dramas, cooking, singing, etc. I also like "playing music instrument". However due to economic factor (i.e. poor), I've never learnt any types of music instrument untill last month I bought a Ukulele and stated to learn. So, I can only "play" the virtual piano on the Internet. &#128514;</p>
       </div>      
       <br>
-    
-      <h2 id="photogallery">PHOTO GALLERY</h2>
+ 
+    <hr>
+
+      <h2 id="photogallery">PHOTO GALLERY</h2><br>
       <h5>Here are some photos that I like ~</h5>
       <div class="PhotoG">
 
         <div class="photoInG">
-	  <a target="_blank" href="cat.jpg"><img src="cat.jpg" alt="Cat"></a>
+	  <a target="_blank" href="cat.jpg"><img src="cat.jpg" alt="Cat" title="Cat"></a>
 	<div class="desc">CATs are sooooo cute!</div>
         </div> 
 
        <div class="photoInG">
-	  <a target="_blank" href="dog.jpg"><img src="dog.jpg" alt="Dog"></a>
+	  <a target="_blank" href="dog.jpg"><img src="dog.jpg" alt="Dog" title="Dog"></a>
 	<div class="desc">I also like DOGs sooooo much!</div>
         </div> 
 
       <div class="photoInG">
-	  <a target="_blank" href="star.jpg"><img src="star.jpg" alt="Meteor shower"></a>
+	  <a target="_blank" href="star.jpg"><img src="star.jpg" alt="Meteor shower" title="Meteor shower"></a>
 	<div class="desc">I've never seen a live meteor shower &#128557</div>
         </div> 
 
       <div class="photoInG">
-	  <a target="_blank" href="choco.jpg"><img src="choco.jpg" alt="Chocolate"></a>
+	  <a target="_blank" href="choco.jpg"><img src="choco.jpg" alt="Chocolate" title="Chocolate"></a>
 	<div class="desc">Everythings with Chocolate! Yummy!</div>
         </div> 
 
      <div class="photoInG">
-	  <a target="_blank" href="winter.jpg"><img src="winter.jpg" alt="Winter"></a>
+	  <a target="_blank" href="winter.jpg"><img src="winter.jpg" alt="Winter" title="Winter"></a>
 	<div class="desc">I like Winter ~</div>
         </div> 
 
      <div class="photoInG">
-	  <a target="_blank" href="game.jpg"><img src="game.jpg" alt="Roller coaster"></a>
+	  <a target="_blank" href="game.jpg"><img src="game.jpg" alt="Roller Coaster" title="Roller Coaster"></a>
 	<div class="desc">Roller Coaster! So Exciting!</div>
         </div> 
 
      <div class="photoInG">
-	  <a target="_blank" href="pineapple.jpg"><img src="pineapple.jpg" alt="Pineapple"></a>
+	  <a target="_blank" href="pineapple.jpg"><img src="pineapple.jpg" alt="Pineapple" title="Pineapple"></a>
 	<div class="desc">I like Pineapple!</div>
         </div> 
 
      <div class="photoInG">
-	  <a target="_blank" href="money.jpg"><img src="money.jpg" alt="Money"></a>
+	  <a target="_blank" href="money.jpg"><img src="money.jpg" alt="Money" title="Money"></a>
 	<div class="desc">I think No One Hate THIS!</div>
         </div> 
       </div>
       <br><br>
 
+     <hr>
 
-     <div class="FavSong" id="favouritesong">
-        <h2>MY FAVOURITE SONGS</h2>
-        <h5>Here are some songs that I like ~</h5>
+     <div class="FavSong" id="favouritebgm">
+        <h2>MY FAVOURITE BACKGROUND MUSIC</h2><br>
+        <h5>Here are some BGM that I like ~</h5>
      <table class="table table-bordered">
     <thead>
       <tr>
         <th></th>
-        <th>Cantonese</th>
-        <th>Putonghua</th>
-        <th>Korean</th>
+        <th>Happiness</th>
+        <th>Sadness</th>
+        <th>Pop</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>&#10084 &#10084</td>
-        <td><a href="https://www.google.com.hk/">https://www.google.com.hk/</a></td>
-        <td>john@example.com</td>
-        <td>12</td>
+        <td><iframe width="160" height="90" src="https://www.youtube.com/embed/VSpmH6STZ6A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="BGM with happiness"></iframe></td>
+        <td><iframe width="160" height="90" src="https://www.youtube.com/embed/Q17GbypwqVs?list=PL6rcH5B64dUeIcvmyVAcItHWk6CveyyBl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="BGM with sadness"></iframe></td>
+        <td><iframe width="160" height="90" src="https://www.youtube.com/embed/_pqkjYD4pvM?list=PL6rcH5B64dUeAZGoKcJsiqMMzPH7UR0tO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="pop BGM"></iframe></td>
       </tr>
       <tr>
         <td>&#10084</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-        <td>12</td>
+        <td><iframe width="160" height="90" src="https://www.youtube.com/embed/xZabCk22hQc?list=PL6rcH5B64dUc3SUGJ4RlDg8mxk667MCrh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="BGM with happiness"></iframe></td>
+        <td><iframe width="160" height="90" src="https://www.youtube.com/embed/yLp8coTPdAQ?list=PL6rcH5B64dUeIcvmyVAcItHWk6CveyyBl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="BGM with sadness"></iframe></td>
+        <td><iframe width="160" height="90" src="https://www.youtube.com/embed/DfVrKQhtR1U?list=PL6rcH5B64dUeAZGoKcJsiqMMzPH7UR0tO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="pop BGM"></iframe></td>
       </tr>
     </tbody>
   </table>
      </div>      
       <br><br>
 
-<div class="FavMovie" id="favouritemovie">
-        <h2>MY FAVOURITE MOVIE</h2>
-        <h5>Here are some movies that I like ~</h5>
-     <table class="table table-bordered">
-    <thead>
-      <tr>
-        <th></th>
-        <th>Cantonese</th>
-        <th>Putonghua</th>
-        <th>Korean</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>&#10084 &#10084</td>
-        <td><iframe src="逆流直上.html"></iframe></td>
-        <td>john@example.com</td>
-        <td>12</td>
-      </tr>
-      <tr>
-        <td>&#10084</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-        <td>12</td>
-      </tr>
-    </tbody>
-  </table>
+      <hr>
+
+      <div class="FavMovie" id="favouritemovies">
+        <h2>MY FAVOURITE MOVIES/DRAMAS</h2><br>
+        <h5>Here are some movies/dramas that I like ~</h5>
+
+    <ul class="list-group list-group-horizontal">
+      <li class="list-group-item"><iframe width="160" height="90" src="https://www.youtube.com/embed/vwMJJm5WMSM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="movie少年的你"></iframe><br>少年的你<br>&#10084 &#10084 &#10084 &#10084 &#10084</li>
+      <li class="list-group-item"><iframe width="160" height="90" src="https://www.youtube.com/embed/EAjkScP4YVk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="drama The King：永遠的君主"></iframe><br>The King：永遠的君主<br>&#10084 &#10084 &#10084 &#10084</li>
+      <li class="list-group-item"><img src="d1.jpg" width="160" height="94" alt="想見你" title="想見你"><br>想見你<br>&#10084 &#10084 &#10084</iframe></li>
+      <li class="list-group-item"><iframe width="160" height="90" src="https://www.youtube.com/embed/64_vI-YGJSk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="movie 哪吒之魔童降世"></iframe><br>哪吒之魔童降世<br>&#10084 &#10084</li>
+    </ul>
+
+   
      </div>      
       <br>
 
@@ -223,8 +228,11 @@
   </div>
 </div>
 
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <p>Footer</p>
+<div class="jumbotron text-center" style="margin-bottom:0" id="footer">
+  <p>Copyright © 2021 Tam Ho Ni. All rights reserved.</p>
+  <a href="#cover"><div class="fixed">
+    <b>Back To <br>Top</b>
+  </div></a>
 </div>
 
 
